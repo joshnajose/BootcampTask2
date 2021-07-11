@@ -79,11 +79,12 @@ public static void main(String args[])
 	Collections.sort(laptoplist,new SortBasedonPrice());
 	doPrint(laptoplist,"Laptops sorted based on Price in ascending order");
 }
-public static void doPrint(Collection<ElectronicDevice> collection,String tagLine)
+public static void doPrint(Collection<ElectronicDevice> collection,String str1)
 {
-	System.out.println("\n"+tagLine);
+	System.out.println("\n"+str);
 	
-	for (ElectronicDevice device : collection) {
+	for (ElectronicDevice device : collection) 
+	{
 		System.out.println(device.modelname);
 	}
 }
