@@ -82,7 +82,6 @@ public static void main(String args[])
 public static void doPrint(Collection<ElectronicDevice> collection,String str1)
 {
 	System.out.println("\n"+str1);
-	
 	for (ElectronicDevice device : collection) 
 	{
 		System.out.println(device.modelname);
